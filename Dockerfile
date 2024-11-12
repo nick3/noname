@@ -1,15 +1,14 @@
-FROM node:lts-alpine3.17
+FROM node:20
 
 WORKDIR /app
 
-# Install http-server
-RUN npm install -g http-server
+COPY ./docker/* ./
 
-# Add start.sh
-ADD start.sh .
-RUN chmod +x start.sh
+RUN npm install ws body-parser express minimist
+
+COPY . .
 
 EXPOSE 8080
+EXPOSE 8089
 
-# Start http-server and node server.js
-CMD [ "./start.sh" ]
+CMD [ "sh","./start.sh" ]
