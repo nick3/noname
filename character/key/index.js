@@ -8,6 +8,9 @@ import voices from "./voices.js";
 import { characterSort, characterSortTranslate } from "./sort.js";
 
 game.import("character", function () {
+	if (lib.config.characters.includes("key")) {
+		lib.group.add("key");
+	}
 	return {
 		name: "key",
 		connect: true,

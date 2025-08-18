@@ -3321,7 +3321,7 @@ function hydrateSuspense(node, vnode, parentComponent, parentSuspense, namespace
     parentSuspense,
     parentComponent,
     node.parentNode,
-    // eslint-disable-next-line no-restricted-globals
+     
     document.createElement("div"),
     null,
     namespace,
@@ -11201,7 +11201,7 @@ const hydrate = (...args) => {
   ensureHydrationRenderer().hydrate(...args);
 };
 /**
- * @type {import("@vue/runtime-dom").CreateAppFunction<Element>}
+ * @type {import("@vue/runtime-dom").CreateAppFunction<HTMLElement>}
  */
 const createApp = (...args) => {
   const app = ensureRenderer().createApp(...args);

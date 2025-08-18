@@ -33,6 +33,7 @@ export default {
 	"#zhongyi2": "为国尽忠，天经地义。",
 	"#gzjinfa1": "居功者，当自矜，为将者，当善伐。",
 	"#gzjinfa2": "此战伐敌所获，皆我之功！",
+	"#pe_wenqin:die": "公休，汝这是何意，呃……",
 	"#qiuan1": "明公神文圣武，吾自当举城来降。",
 	"#qiuan2": "臣心不自安，乃君之过也。",
 	"#liangfan1": "今举兵投魏，必可封王拜相，一展宏图。",
@@ -44,7 +45,6 @@ export default {
 	"#gzpaiyi2": "非吾友，则必敌也！",
 	"#chenggong1": "吾与主公患难之交也！",
 	"#chenggong2": "我豫州人才济济，元皓之辈，不堪大用。",
-	"#yj_liru:die": "如遇明主，大业必成……",
 	"#zhaolie1": "不灭东吴，誓不归蜀！",
 	"#zhaolie2": "汝等勿劝，此战势在必行！",
 	"#shichou": "尔等叛贼，害我兄弟，饶不得汝！",
@@ -63,6 +63,7 @@ export default {
 	"#zyshilu2": "将这些乱臣贼子，尽皆诛之！",
 	"#zyxiongnve1": "当今天子乃我所立，他敢怎样？",
 	"#zyxiongnve2": "我兄弟三人同掌禁军，有何所惧？",
+	"#pe_sunchen:die": "愿陛下念臣昔日之功，陛下？陛下！！",
 	"#ns_lijue:die": "若无内讧，也不至如此……",
 	"#ns_fanchou:die": "唉，稚然疑心，甚重……",
 };
